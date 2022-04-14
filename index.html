@@ -1,27 +1,104 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
- <title>My first styled page</title>
- <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="mystyle.css">Welcome To the Game!
+ <script src="script.js"></script>
 </head>
+
 <body>
- <link rel="stylesheet" href="mystyle.css">
+ <link rel="stylesheet" href="mystyle.css">There are some easy questions.
+
 <!-- Site navigation menu -->
-<ul class="navbar">
- <li><a href="index.html">Home page</a>
- <li><a href="musings.html">Musings</a>
- <li><a href="town.html">My town</a>
- <li><a href="links.html">Links</a>
-</ul>
+
 <!-- Main content -->
-<h1>My first styled page</h1>
-<p>Welcome to my styled page!
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
-<p>There should be more here, but I don't know
-what yet.
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
- by myself.</address>
- <body>
+
+<h1 style="padding:20px;text-align:center"> · 柯南角色测试 · </h1>
+<form action="",method="post">
+<fieldset>
+
+<fieldset>
+<h3>Single choice</h3>
+<div id="blue">
+<fieldset class ="question">
+<p id="1">Qeustion 1: 如果你自己出去旅游，你会选择到哪种类型的地方去？</p>
+<label><input type="radio" name="answer1" value="10"/>广袤无垠的海边</label>
+<br />
+<label ><input type="radio" name="answer1"  value="20"/>人迹罕至的深山老林</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="2">Qeustion 2: 如果你要旅游的地方不是很远，你会坐什么工具去？</p>
+<label><input type="radio" name="answer2" value="10"/>火车</label>
+<br />
+<label ><input type="radio" name="answer2"  value="20"/>飞机</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="3">Qeustion 3: 如果你到达了订的酒店，你会选择的房间是什么类型的？</p>
+<label><input type="radio" name="answer3" value="10"/>高层并且有大窗可以看美景</label>
+<br />
+<label ><input type="radio" name="answer3"  value="20"/>低层并靠近逃生通道</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="4">Qeustion 4: 你的晚餐会吃什么呢？</p>
+<label><input type="radio" name="answer4" value="10"/>西式大餐</label>
+<br />
+<label ><input type="radio" name="answer4"  value="20"/>中式大餐</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="5">Qeustion 5:如果你在半夜听到敲门声，你第一反应是什么？</p>
+<label><input type="radio" name="answer5" value="10"/>用猫眼查看并询问是谁？</label>
+<br />
+<label ><input type="radio" name="answer5"  value="20"/>打电话到前台，说有人敲门</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="6">Qeustion 6:你出去游玩的时候发现被人跟踪了，你会怎么办？</p>
+<label><input type="radio" name="answer6" value="10"/>直接寻找警察帮助</label>
+<br />
+<label ><input type="radio" name="answer6"  value="20"/>加快脚步，并走到人群多的地方，甩脱对方</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="7">Qeustion 7:当你回到酒店，发现房间里有被人动过的痕迹，你会怎么办？</p>
+<label><input type="radio" name="answer7" value="10"/>找前台要说法</label>
+<br />
+<label ><input type="radio" name="answer7"  value="20"/>自己看看有没有丢失东西，没有的话就算了</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="8">Qeustion 8:你在旅游期间想给父母买点东西，你会买什么呢？</p>
+<label><input type="radio" name="answer8" value="10"/>当地的美食</label>
+<br />
+<label ><input type="radio" name="answer8"  value="20"/>当地的装饰品</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="9">Qeustion 9:你发现自己得了小感冒，你会怎么办？</p>
+<label><input type="radio" name="answer9" value="10"/>打电话问父母怎么办</label>
+<br />
+<label ><input type="radio" name="answer9"  value="20"/>打电话问父母怎么办</label>
+</fieldset>
+
+<fieldset class ="question">
+<p id="10">Qeustion 10:你拖着疲惫的身体回家，发现父母准备丰盛的饭菜，你有什么想法？</p>
+<label><input type="radio" name="answer10" value="10"/>很感动，并心中许诺要带父母去旅游</label>
+<br />
+<label ><input type="radio" name="answer10"  value="20"/>很感激父母，但是觉得和父母一起旅游不好玩，会给钱让父母他们自己玩</label>
+</fieldset>
+<button type="button" onclick="coreCount()">Cores</button
+</fieldset>
+
+</form>
+<p style="background-color:rgba(R,G, B, A);padding:20px;text-align:center">
+  分数<=110分，你是灰原哀，你很聪明，同时也很高冷，而且你的理科非常好。<br>
+  分数110分-130分，你是工藤新一，你的性格很冷静，办事一丝不苟，非常可靠。<br>
+  分数131分-150分，你是赤井秀一，你帅气聪明，而且一旦学习某事，就会很认真。<br>
+  分数151分-170分，你是怪盗基德，你乐观向上，同时也很调皮，不过对待别人很温柔。<br>
+  分数>=180分，你是毛利兰，你善良温柔，也会优柔寡断，对感情很专一，愿意一直等待对方。<br>
+</p>
+</body>
+
+</html>
