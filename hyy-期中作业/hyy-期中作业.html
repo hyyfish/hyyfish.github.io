@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <tittle>Welcome to my 柯南 world</tittle>
+    <embed src="img\时停错觉.mp3" hidden="true" autostart="true" loop="true">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://use.fontawwesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="style.css" rel="stylesheet">
-  </head>
+    </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <!-- <navbar> -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+      <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+                  src="img/时停错觉.mp3">
+                    </audio>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -45,14 +48,20 @@
             <a class="nav-link disabled">黄鱼鱼</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="form-inline my-2 my-lg-12">
+          <input class="form-control mr-sm-2" type="我爱柯南" placeholder="我爱柯南" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- <slide> -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -62,8 +71,10 @@
     <div class="carousel-item active">
       <img src="img/轮播1.jpg" class="d-block w-100" alt="预告">
       <div class="carousel-caption">
+        <div class="col-xs-6 col-sm-12 col-md-12">
       <h1 class="display-4"><strong>M25 万圣夜的新娘</strong></h1>
       <h3 class="display-6">「 可否与你许下永恒之爱？」</h3>
+    </div>
       <br>
       <a href="#资讯"> <button type="button" class="btn btn-outline-light btn-sm">最新资讯</button></a>
       <a href="https://www.ytv.co.jp/conan/"><button type="button" class="btn btn-primary btn-sm">了解更多</button></a>
@@ -99,7 +110,7 @@
       </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-1">
-      <a href="https://vd3.bdstatic.com/mda-mmniwepc9iduezem/480p/h264/1640265637285552451/mda-mmniwepc9iduezem.mp4"><button type="button" class="btn btn-outline-secondary btn-lg">电影预告</button></a>
+      <a href="img/预告.mp4"><button type="button" class="btn btn-outline-secondary btn-lg">电影预告</button></a>
   </div>
   </div>
   </div>
@@ -154,7 +165,7 @@
   <div id="人物介绍" class="container-fluid">
     <div class="row text-center">
       <div class="col-12">
-        <h1 class="display-4">主要人物介绍</h1>
+        <h1 class="display-4">人物介绍</h1>
       </div>
     </div>
   </div>
@@ -312,6 +323,7 @@
       <h5>我的联系方式</h5>
       <hr class="light">
         <p>不告诉你</p>
+        <p>123-456-789</p>
         <br>
       </div>
     </div>
@@ -319,8 +331,5 @@
 </footer>
 
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-
-
   </body>
 </html>

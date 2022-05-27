@@ -1,6 +1,6 @@
 html, body{
   font-family: 'Microsoft YaHei',sans-serif;
-  letter-spacing:1.25px;
+  letter-spacing:2px;
   color:#222;
 }
 
@@ -21,7 +21,8 @@ html, body{
 
 .fun{
   width:100%;
-  margin-bottom:2rem;
+  margin-bottom:1rem;
+  background-color:	#FFFFFF;
 }
 
 .gif{
@@ -29,8 +30,8 @@ html, body{
 }
 
 footer{
-  background-color:#3f3f3f;
-  color:#d5d5d5;
+  background-color:#FFA07A;
+  color:#F5F5F5;
   padding-top:2rem;
 }
 .light{
